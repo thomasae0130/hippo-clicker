@@ -34,7 +34,7 @@ main {
     display: flex;
 }
 h1 {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 #boyStick {
     width: 100%;
@@ -44,18 +44,18 @@ h1 {
 }
 #boyStick p, #manStick p {
     padding: 5px;
-    font-family: "Kdam Thmor Pro", sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 158, 158);
 }
 #robotStick p {
     padding: 5px;
-    font-family: "Kdam Thmor Pro", sans-serif; 
-    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(116, 116, 116);
 
 }
 #mysticalStick p {
     padding: 5px;
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(117, 117, 117)
 }
 .stickBoy {
@@ -77,13 +77,13 @@ h1 {
     margin: 5px;
 }
 .boyStickText, .manStickText {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:rgb(150, 158, 158);
     padding: 5px;
 }
  .robotStickText {
-    font-family: "Kdam Thmor Pro", sans-serif;
-    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(116, 116, 116);
  }
 
 #stickBoyText, #stickManText {
@@ -91,7 +91,7 @@ h1 {
     font-weight: bold;
 }
 #stickRobotText {
-    color: darkgray;
+    color: rgb(116, 116, 116);
     font-weight: bold;
 }
 #hippoText {
@@ -133,7 +133,7 @@ h1 {
 }
 .stickMinecraftText {
     color: rgb(117, 117, 117);
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #jackieChan {
     width: 100%;
@@ -146,12 +146,12 @@ h1 {
     width: 150px;
 }
 .chanJackieText {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:rgb(73, 73, 73);
 
 }
 #jackieChan p {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:rgb(73, 73, 73);
     padding: 5px;
 }
@@ -169,13 +169,13 @@ h1 {
     padding: 5px;
 }
 #alien p {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:rgb(51, 51, 51);
     padding: 5px;
 
 }
 .stickAlienText {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:rgb(51, 51, 51);
 }
 #alienStickText {
@@ -194,16 +194,16 @@ h1 {
     padding: 5px;
 }
 #clickMultiplier p {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     color: rgb(170, 170, 170);
 }
 .cost {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
 }
 #costNumber {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     color: rgb(150, 158, 158);
 }
@@ -211,17 +211,17 @@ h1 {
     color: rgb(150, 158, 158);
 }
 #costNumberStickBoy, #clickerPrice {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 158, 158); 
 }
 #manStickCostNumber, #costNumberStickMan {
     color: rgb(150, 158, 158);
 }
 #robotStickCostNumber {
-    color: darkgray;
+    color: rgb(116, 116, 116);
 }
 #stickRobotCostNumber {
-    color: darkgray; 
+    color: rgb(116, 116, 116); 
     padding: 5px;
 }
 #mysticalStickCostNumber, #mysticalStickNumber {
@@ -244,7 +244,7 @@ padding: 5px;
     width: 100%;
 }
 #lsbps, #lsbpsn {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 158, 158);
 }
 #lsbps {
@@ -257,7 +257,7 @@ padding: 5px;
 }
 #smps, #smpsn {
     color: rgb(150, 158, 158);
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #smps {
     margin-left: 20px;
@@ -266,8 +266,8 @@ padding: 5px;
     background-color: rgb(175, 145, 10);
 }
 #srps, #srpsn {
-    color: darkgray;
-    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(116, 116, 116);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #srps {
     margin-left: 20px;
@@ -278,7 +278,7 @@ padding: 5px;
 }
 #msps, #mspsn {
     color:rgb(117, 117, 117);
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #msps {
     margin-left: 20px;
@@ -289,7 +289,7 @@ padding: 5px;
 }
 #jccps, #jccpsn {
     color: rgb(73,73,73);
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #jccps {
     margin-left: 20px;
@@ -299,7 +299,7 @@ padding: 5px;
     width: 100%;
 }
 #aps, #apsn {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(51, 51, 51);
 }
 #aps { 
@@ -310,12 +310,12 @@ padding: 5px;
     width: 100%;
 }
 #multiplierClickerTexts {
-    font-family:  "Kdam Thmor Pro", sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
     color: rgb(170, 170, 170);
     margin-left: 20px;
 }
 #clickerMultiplerText {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(170, 170, 170);
 }
 #hippoGods{
@@ -329,11 +329,11 @@ padding: 5px;
     height: 150px;
 }
 #hippoGods p {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
 }
 .hippoGodText {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black; 
 }
 #godHippoText {
@@ -345,11 +345,41 @@ padding: 5px;
     width: 100%;
 }
 #ghps, #ghpsn {
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 #ghps {
     margin-left: 20px;
+}
+@media only screen and (max-width: 1358px ) {
+    #multiplierTotals {
+        width: 25%;
+    }
+    #hippo-container {
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #shop {
+        margin-left: 0px;
+}
+}
+@media only screen and (max-width: 1290px){
+    #shop {
+        width: 45%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 1149px) {
+    #hippo-container h1 {
+       font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    #hippo-container {
+        margin-left: 20px;
+        margin-right:20px;
+    }
 }
 @media only screen and (max-width: 1000px) {
     #hippo-container img {
@@ -365,30 +395,6 @@ padding: 5px;
 
     }
 }
-@media only screen and (max-width: 1040px) {
-    #hippo-container {
-        margin-left: 20px;
-        margin-right:20px;
-    }
-}
-@media only screen and (max-width: 1358px ) {
-    #multiplierTotals {
-        width: 25%;
-    }
-    #hippo-container {
-        margin: 0;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    #shop {
-        margin-left: 0px;
-    }
-}
-@media only screen and (max-width: 1149px) {
-    #hippo-container h1 {
-       font-size: 1.5em;
-    }
-}
 @media only screen and (max-width: 862px) {
     #hippo-container h1 {
        text-align: center;
@@ -396,12 +402,6 @@ padding: 5px;
     #hippo-container img {
         width: 160px;
         height: 90px;
-    }
-}
-@media only screen and (max-width: 1290px){
-    #shop {
-        width: 45%;
-        display: block;
     }
 }
 #shop img {
@@ -440,3 +440,28 @@ padding: 5px;
         margin-top: 5px;
     }
 }
+@media only screen and (max-width: 538px) {
+    #hippo-container {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 492px) {
+    #hippo-container {
+        width: 40%
+    }
+}
+button:after {
+    color: black;
+}
+@media only screen and (max-width: 429px) {
+    #hippoGodImage {
+        height: 150px;
+        width: 150px;
+    }
+    #hippo-container {
+        height: 25%;
+    }
+    #shop {
+        height: 61%;
+    }
+} 
