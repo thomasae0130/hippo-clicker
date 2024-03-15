@@ -1,0 +1,353 @@
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, red, blue);
+    overflow: hidden;
+}
+main {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#hippo-container {
+    background-color: #556496;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+.hippoImage{
+    height: 150px;
+    width: 220px;
+    margin: 10px;
+    cursor: pointer;
+}
+.total {
+    display: flex;
+}
+h1 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#boyStick {
+    width: 100%;
+    background-color: darkred;
+    display: flex;
+    padding: 5px;
+}
+#boyStick p, #manStick p {
+    padding: 5px;
+    font-family: "Kdam Thmor Pro", sans-serif; 
+    color: rgb(150, 158, 158);
+}
+#robotStick p {
+    padding: 5px;
+    font-family: "Kdam Thmor Pro", sans-serif; 
+    color: darkgray;
+
+}
+#mysticalStick p {
+    padding: 5px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(117, 117, 117)
+}
+.stickBoy {
+    height: 150px;
+    width: 100px;
+}
+#shop {
+    width: 43%;
+    height: 1000px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+.boyButton {
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.boyStickText, .manStickText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:rgb(150, 158, 158);
+    padding: 5px;
+}
+ .robotStickText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: darkgray;
+ }
+
+#stickBoyText, #stickManText {
+    color: rgb(150, 158, 158);
+    font-weight: bold;
+}
+#stickRobotText {
+    color: darkgray;
+    font-weight: bold;
+}
+#hippoText {
+    padding-right: 5px;
+}
+.stickMan {
+    height: 150px;
+    width: 150px;
+}
+#manStick {
+    width: 100%;
+    background-color: rgb(173, 66, 4);
+    display: flex;
+    padding: 5px;
+}
+.stickRobot {
+    height: 150px;
+    width: 150px;
+}
+#robotStick {
+    width: 100%;
+    background-color: rgb(175, 145, 10);
+    display: flex;
+    padding: 5px;
+}
+#mysticalStick {
+    width: 100%;
+    background-color: rgb(106, 156, 13);
+    display: flex;
+    padding: 5px;
+}
+.minecraftStick {
+    height: 150px;
+    width: 150px;
+}
+#minecraftStickText {
+    color: rgb(117, 117, 117);
+    font-weight: bold; 
+}
+.stickMinecraftText {
+    color: rgb(117, 117, 117);
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#jackieChan {
+    width: 100%;
+    background-color: rgb(17, 122, 14);
+    display: flex;
+    padding: 5px;
+}
+.jackiechanImage {
+    height: 150px;
+    width: 150px;
+}
+.chanJackieText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:rgb(73, 73, 73);
+
+}
+#jackieChan p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:rgb(73, 73, 73);
+    padding: 5px;
+}
+#jackieChanText {
+    color: rgb(73, 73, 73);
+}
+.alienImage {
+    height: 150px;
+    width: 150px;
+}
+#alien {
+    width: 100%;
+    background-color:rgb(16, 156, 138);
+    display: flex;
+    padding: 5px;
+}
+#alien p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:rgb(51, 51, 51);
+    padding: 5px;
+
+}
+.stickAlienText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:rgb(51, 51, 51);
+}
+#alienStickText {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+#clickMultiplier {
+    width: 100%;
+    background-color: rgb(77, 0, 0);
+    display: flex;
+    padding: 5px;
+}
+#clickerMultiplierImage {
+    height: 140px;
+    width: 150px;
+    padding: 5px;
+}
+#clickMultiplier p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    padding: 5px;
+    color: rgb(170, 170, 170);
+}
+.cost {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    padding: 5px;
+}
+#costNumber {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    padding: 5px;
+    color: rgb(150, 158, 158);
+}
+#lilBoyCost {
+    color: rgb(150, 158, 158);
+}
+#costNumberStickBoy, #clickerPrice {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(150, 158, 158); 
+}
+#manStickCostNumber, #costNumberStickMan {
+    color: rgb(150, 158, 158);
+}
+#robotStickCostNumber {
+    color: darkgray;
+}
+#stickRobotCostNumber {
+    color: darkgray; 
+    padding: 5px;
+}
+#mysticalStickCostNumber, #mysticalStickNumber {
+color: rgb(117, 117, 117);
+padding: 5px;
+}
+#jackieChanNumber, #jackieChanCostNumber {
+    padding: 5px;
+    color: rgb(73,73,73);
+}
+#alienNumber, #alienCostNumber {
+    padding: 5px;
+    color: rgb(51, 51, 51);
+}
+#multiplierTotals {
+    width: 20%;
+}
+#lilStickBoyTotals {
+    background-color: darkred;
+    width: 100%;
+}
+#lsbps, #lsbpsn {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(150, 158, 158);
+}
+#lsbps {
+    margin-left: 20px;
+
+}
+#stickManTotals {
+    background-color: rgb(173, 66, 4);
+    width: 100%;
+}
+#smps, #smpsn {
+    color: rgb(150, 158, 158);
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#smps {
+    margin-left: 20px;
+}
+#stickRobotTotals {
+    background-color: rgb(175, 145, 10);
+}
+#srps, #srpsn {
+    color: darkgray;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#srps {
+    margin-left: 20px;
+}
+#mysticalStickTotals {
+    background-color: rgb(106, 156, 13);
+    width:100%;
+}
+#msps, #mspsn {
+    color:rgb(117, 117, 117);
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#msps {
+    margin-left: 20px;
+}
+#jackieChanCloneTotals {
+    background-color: rgb(17, 122, 14);
+    width: 100%;
+}
+#jccps, #jccpsn {
+    color: rgb(73,73,73);
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+#jccps {
+    margin-left: 20px;
+}
+#alienTotals {
+    background-color:rgb(16, 156, 138);
+    width: 100%;
+}
+#aps, #apsn {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(51, 51, 51);
+}
+#aps { 
+    margin-left: 20px;
+}
+#clickMultiplierTotals {
+    background-color: rgb(77, 0 ,0);
+    width: 100%;
+}
+#multiplierClickerTexts {
+    font-family:  "Kdam Thmor Pro", sans-serif;
+    color: rgb(170, 170, 170);
+    margin-left: 20px;
+}
+#clickerMultiplerText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: rgb(170, 170, 170);
+}
+#hippoGods{
+    width: 100%;
+    background-color: rgb(15, 93, 145);
+    display: flex;
+    padding: 5px;
+}
+#hippoGodImage {
+    width: 150px;
+    height: 150px;
+}
+#hippoGods p {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    padding: 5px;
+}
+.hippoGodText {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: black; 
+}
+#godHippoText {
+    font-weight: bold;
+    color: black;;
+}
+#godHippoTotals {
+    background-color:rgb(15, 93, 145);
+    width: 100%;
+}
+#ghps, #ghpsn {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: black;
+}
+#ghps {
+    margin-left: 20px;
+}

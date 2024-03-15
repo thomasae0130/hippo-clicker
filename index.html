@@ -1,0 +1,115 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <title>Hippo clicker</title>
+  <link rel="stylesheet" href="resources/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="multiplierTotals">
+    <div id="clickMultiplierTotals">
+      <span id="multiplierClickerTexts"> you have a multiplier of: </span><span id="clickerMultiplerText"> 0</span>
+    </div>
+    <div id="lilStickBoyTotals">
+      <span id="lsbps">lil stick boy hippos per second: </span><span id="lsbpsn">0</span>
+    </div>
+    <div id="stickManTotals">
+      <span id="smps">stick man hippos per second: </span><span id="smpsn"> 0</span>
+    </div>
+    <div id="stickRobotTotals">
+      <span id="srps">stick robot hippos per second: </span><span id="srpsn"> 0</span>
+    </div>
+    <div id="mysticalStickTotals">
+      <span id="msps">mystical stick hippos per second: </span><span id="mspsn"> 0</span>
+    </div>
+    <div id="jackieChanCloneTotals">
+      <span id="jccps">clones hippos per second: </span><span id="jccpsn"> 0</span>
+    </div>
+    <div id="alienTotals">
+      <span id="aps"> alien hippos per second: </span><span id="apsn"> 0</span>
+    </div>
+    <div id="godHippoTotals">
+      <span id="ghps">Hippo god hippos per second:</span><span id="ghpsn"> 0</span>
+    </div>
+  </div>
+    <div id="hippo-container">
+        <h1>HIPPO CLICKER</h1>
+      <img class="hippoImage" src="images/baby-hippo.webp">
+      <div id="total">
+        <span id="hippoText">Hippos:</span><span id="hipposText"> 0</span>
+        <P id="chatText">Welcome to hippo clicker</P>
+      </div>
+    </div>
+<div id="shop">
+  <div id="clickMultiplier">
+    <img id="clickerMultiplierImage" src="images/pointerclick.png">
+    <div class="textandbutton">
+      <p>purchase a clicker multiplier.</p>
+      <button type="button" id="clickerButton">buy a clicker multiplier of +20%</button><span id="clickerPrice" class="cost">Cost:</span><span id ="costNumber"> 10</span>
+      
+    </div>
+  </div>
+      <div id="boyStick">
+        <img class="stickBoy" src="images/stickboy.avif">
+        <div class="textandbutton">
+         <p>purchase a little boy with a stick. He'll pokem with it</p>
+        <button type="button" id="boyButton">Buy 1 Boy</button><Span id="lilBoyCost" class="cost">Cost:</Span><span id="costNumberStickBoy"> 20</span>
+        <span class="boyStickText">  You have: </span><span id="stickBoyText">  0</span><span class="boyStickText"> little boys.  </span>
+        </div>
+      </div>
+      <div id="manStick">
+        <img class="stickMan" src ="images/manstick.jpg">
+        <div class="textandbutton">
+          <p>Purchase a man with a stick. Look at em he'll defintely be faster.</p>
+          <button type="button" id="manButton">Buy 1 man</button><span id="manStickCostNumber" class="cost">Cost:</span><span id="costNumberStickMan"> 100</span>
+          <span class="manStickText">You have: </span><span id="stickManText"> 0 </span><span class="manStickText"> men.</span>
+        </div>
+      </div>
+      <div id="robotStick">
+        <img class="stickRobot" src="images/robotstick.jpg">
+        <div class="textandbutton">
+          <p>Purchase a poking robot to speed things up. Plus it doesnt complain.</p>
+          <button type="button" id="robotButton">Buy 1 robot</button><Span id="robotStickCostNumber" class="cost">Cost:</Span><span id="stickRobotCostNumber"> 1000</span>
+          <span class="robotStickText">You have:</span><span id="stickRobotText"> 0</span><span class="robotStickText"> robots.</span>
+        </div>
+      </div>
+      <div id="mysticalStick">
+        <img class="minecraftStick" src="images/download.png">
+        <div class="textandbutton">
+          <p>A mystical stick from minecraft. May be useful.</p>
+          <button type="button" id="minecraftButton">Buy 1 mystical minecraft stick</button><span id="mysticalStickCostNumber" class="cost">Cost:</span><span id="mysticalStickNumber"> 10000</span>
+          <span class="stickMinecraftText">You have: </span><span id="minecraftStickText"> 0</span><span class="stickMinecraftText"> minecraft sticks.</span>
+        </div>
+      </div>
+      <div id="jackieChan">
+        <img class="jackiechanImage" src="images/download.jpg">
+        <div class="textandbutton">
+          <p>No way! It's jackie chan and his clones. He says you can have clones to use... but for a price.</p>
+          <button type="button" id="jackieChanButton">Buy 1 Jackie Chan clone</button><spa id="jackieChanCostNumber" class="cost">Cost:</span><span id="jackieChanNumber">100000</span>
+          <span class="chanJackieText">You have: </span><span id="jackieChanText"> 0 </span><span class="chanJackieText"> Jackie Chan Clones</span>
+        </div>
+      </div>
+      <div id="alien">
+        <img class="alienImage" src="images/746c0669-795a-41da-b85d-006466072cd2.jpg">
+        <div class="textandbutton">
+          <P> The aliens have acended down upon earth and want to poke the hippos. They want payment to aquire Earth metals.</P>
+          <button type="button" id="alienButton">Buy 1 alien</button><span id="alienCostnumber" class="cost">Cost:</span><span id="alienNumber"> 1000000</span>
+          <span class="stickAlienText">You have: </span><span id="alienStickText"> 0 </span><span class="stickAlienText"> aliens.</span>
+        </div>  
+      </div>
+      <div id="hippoGods">
+        <img id="hippoGodImage" src="images/25f5c8d7-791e-40ab-b5a1-89a7c040117c.jpg">
+        <div class="textandbutton">
+          <P>The hippo god has acended throught an inter-dimentional portal.</P>
+          <button type="button" id="hippoGodButton">buy 1 hippo god magic</button><span id="hippoGodCostNumber" class="cost">Cost:</span><span id="hippoGodNumber"> 100000000</span>
+          <span class="hippoGodText">You have: </span><span id="godHippoText"> 0 </span><span class="hippoGodText"> hippo gods.</span>
+        </div>
+      </div>
+</div>
+    
+ <script src="resources/script.js"></script>   
+</body>
+
+</html>
