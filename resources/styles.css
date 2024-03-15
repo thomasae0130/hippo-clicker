@@ -435,6 +435,17 @@ padding: 5px;
         height: 60%;
     }
 }
+@media only screen  and (max-width: 657px) {
+    #shop {
+        height: 43%
+    }
+    #hippo-container {
+        height:35%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+}
 @media only screen and (max-width: 594px) {
     #hippo-container {
         margin-top: 5px;
